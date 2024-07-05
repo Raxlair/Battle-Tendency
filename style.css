@@ -87,9 +87,31 @@ h6{
     animation-duration: 1s;
 }
 
+#box2{
+    border: 1px solid;
+    border-style: solid;
+    border-radius: 10px;
+    height: 700px;
+    width: 1000px;
+    background-color: #12111f;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
 .inmainbox{
     margin-top: 20px;
     margin-left: 20px;
+
+}
+
+.insecbox{
+    margin-top: 20px;
+    margin-left: 20px;
+    animation: aboutwords;
+    animation-duration: 1s;
+}
 
 }
 
@@ -97,7 +119,14 @@ h6{
     margin-top: 40px;
 }
 
+
+
 @keyframes mainbox{
     from{margin-top: 100%;}
     to{margin-top: 50;}
+}
+
+@keyframes aboutwords{
+    from{margin-left:100% ;}
+    to{margin-left: 50;}
 }
