@@ -1,0 +1,103 @@
+body{
+    background-image: url(images/minimalist-dark-gradient-wave-background-simple-design-for-your-website-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: montserrat ;
+    color: white;
+}
+
+#pfp {
+   width: 100px;
+   border-radius: 50px;
+   float: left;
+   margin-right: 10px;
+   position:relative ;
+}
+  
+em {
+    color: royalblue;
+    font-style: normal;
+}
+
+ 
+#username {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+  
+}
+
+h1{
+    font-size: xx-large;
+
+}
+
+h2{
+    font-size: xx-large;
+}
+
+h3{
+    font-size: xx-large;
+
+}
+
+h4{
+    font-size: xx-large;
+}
+
+h5{
+    font-size: xx-large;
+
+}
+
+h6{
+    font-size: xx-large;
+}
+
+.anime{
+    height:300px;
+    width: 200px;
+
+
+}
+
+.review{
+    position: relative;
+    bottom: 330px;
+    left: 210px;
+    
+}
+
+#box1{
+    border: 1px solid;
+    border-style: solid;
+    border-radius: 10px;
+    height: 700px;
+    width: 1000px;
+    background-color: #12111f;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+
+    animation: mainbox;
+    animation-duration: 0.5s;
+}
+
+.inmainbox{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#username{
+    margin-top: 40px;
+}
+
+@keyframes mainbox{
+    from{margin-top: 100%;}
+    to{margin-top: 50%;}
+}
