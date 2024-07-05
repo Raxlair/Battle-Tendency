@@ -84,7 +84,7 @@ h6{
     margin-top: 150px;
 
     animation: mainbox;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
 }
 
 .inmainbox{
@@ -99,5 +99,5 @@ h6{
 
 @keyframes mainbox{
     from{margin-top: 100%;}
-    to{margin-top: 50%;}
+    to{margin-top: 50;}
 }
