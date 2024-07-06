@@ -130,3 +130,13 @@ h6{
     from{margin-left:100% ;}
     to{margin-left: 50;}
 }
+
+.buttonlink{
+    font-size: 0.1px;
+}
+
+button{
+    border-radius: 10px;
+    color: white;
+    background-color: #2d2a47;
+}
