@@ -57,18 +57,10 @@ h6{
     font-size: xx-large;
 }
 
-.anime{
+#anime{
     height:300px;
     width: 200px;
-
-
-}
-
-.review{
-    position: relative;
-    bottom: 330px;
-    left: 210px;
-    
+    border-radius: 10px;
 }
 
 #box1{
@@ -139,4 +131,18 @@ button{
     border-radius: 10px;
     color: white;
     background-color: #2d2a47;
+}
+
+#review{
+    position: relative;
+    margin-left:240px;
+    margin-top: -300px;
+
+}
+
+#animeobutton{
+    position: relative;
+    margin-left:225px;
+    margin-top: -300px;
+
 }
