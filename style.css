@@ -105,7 +105,6 @@ h6{
     animation-duration: 1s;
 }
 
-}
 
 #username{
     margin-top: 40px;
@@ -145,4 +144,25 @@ button{
     margin-left:225px;
     margin-top: -300px;
 
+}
+
+.socialimage{
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    color: white;
+    margin-left: 0.5em;
+    margin-top: 8px;
+
+}
+
+#socialcircle{
+    position: relative;
+    width: 51px;
+    height: 51px;
+    border: 2px solid;
+    border-style: solid;
+    border-radius: 30px;
+    float: left
+    margin-top: 250px;
 }
