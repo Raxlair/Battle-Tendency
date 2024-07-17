@@ -2,7 +2,7 @@ body{
     background-image: url(images/minimalist-dark-gradient-wave-background-simple-design-for-your-website-vector.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: montserrat ;
+    font-family: montserrat;
     color: white;
 }
 
@@ -105,13 +105,9 @@ h6{
     animation-duration: 1s;
 }
 
-}
-
 #username{
     margin-top: 40px;
 }
-
-
 
 @keyframes mainbox{
     from{margin-top: 100%;}
