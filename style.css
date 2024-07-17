@@ -166,3 +166,53 @@ button{
     float: left
     margin-top: 250px;
 }
+
+#productbox{
+
+    border-radius: 10px;
+    height: 175px;
+    width: 225px;
+    background-color: #211f33;
+    float: left;
+
+    
+}
+
+.inprodbox{
+    margin-top: 20px;
+    margin-left: 18px;
+    animation: productfade;
+    animation-duration: 3s;
+}
+
+@keyframes productfade{
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+#prodbutt{
+    animation: productfade;
+    animation-duration: 3s;
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -475px;
+    
+}
+
+.prodlogo{
+    position: sticky;
+    height: auto;
+    width: 75px;
+    margin-left: 70px;
+    margin-top: 65px;
+    border-radius: 10px;
+
+}
+
+#prodtitle{
+    margin-top: 10px;
+    margin-left: 2mm;
+    position: fixed;
+
+}
+
