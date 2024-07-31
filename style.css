@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/minimalist-dark-gradient-wave-background-simple-design-for-your-website-vector.jpg);
+    background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: montserrat;
@@ -212,3 +212,11 @@ button{
 
 }
 
+.x-logo {
+    position: relative;
+    width: 30px;
+    height: 30px; 
+    margin-top: 10px;
+    margin-left: 11px;
+  }
+  
