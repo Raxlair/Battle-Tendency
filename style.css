@@ -1,28 +1,14 @@
 body{
-    background-image: url(./images/background.jpg);
+    background-color:#1e1e2e;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: montserrat;
-    color: white;
+    color: #cdd6f4;
 }
 
-#pfp {
-   width: 100px;
-   border-radius: 50px;
-   float: left;
-   margin-right: 10px;
-   position:relative ;
-}
-  
 em {
-    color: royalblue;
+    color: #f38ba8;
     font-style: normal;
-}
-
- 
-#username {
-    font-weight: bold;
-    font-size: 50px;
 }
 
 p{
@@ -57,70 +43,47 @@ h6{
     font-size: xx-large;
 }
 
+.chopperpics{   
+    height: 250px;
+    width: 175px;
+    animation: fade;
+    border-radius: 10px;
+    animation-duration: 3s;
+}
+
+@keyframes fade{
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+.center {
+    text-align: center;
+    border: 3px;
+}
+
+.return{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;  
+}
+
+#fade{
+    animation: fade;
+    animation-duration: 500ms;
+}
+
 #anime{
     height:300px;
     width: 200px;
     border-radius: 10px;
+    margin-left: 50px;
 }
 
-#box1{
-    border: 1px solid;
-    border-style: solid;
-    border-radius: 10px;
-    height: 700px;
-    width: 1000px;
-    background-color: #12111f;
+#review{
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
+    margin-left:290px;
+    margin-top: -300px;
 
-    animation: mainbox;
-    animation-duration: 1s;
-}
-
-#box2{
-    border: 1px solid;
-    border-style: solid;
-    border-radius: 10px;
-    height: 700px;
-    width: 1000px;
-    background-color: #12111f;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
-}
-
-.inmainbox{
-    margin-top: 20px;
-    margin-left: 20px;
-
-}
-
-.insecbox{
-    margin-top: 20px;
-    margin-left: 20px;
-    animation: aboutwords;
-    animation-duration: 1s;
-}
-
-#username{
-    margin-top: 40px;
-}
-
-@keyframes mainbox{
-    from{margin-top: 100%;}
-    to{margin-top: 50;}
-}
-
-@keyframes aboutwords{
-    from{margin-left:100% ;}
-    to{margin-left: 50;}
-}
-
-.buttonlink{
-    font-size: 0.1px;
 }
 
 button{
@@ -129,94 +92,6 @@ button{
     background-color: #2d2a47;
 }
 
-#review{
-    position: relative;
-    margin-left:240px;
-    margin-top: -300px;
-
+.animebutton{
+    margin-left: 275px;
 }
-
-#animeobutton{
-    position: relative;
-    margin-left:225px;
-    margin-top: -300px;
-
-}
-
-.socialimage{
-    height: 35px;
-    width: 35px;
-    background-color: transparent;
-    color: white;
-    margin-left: 0.5em;
-    margin-top: 8px;
-
-}
-
-#socialcircle{
-    position: relative;
-    width: 51px;
-    height: 51px;
-    border: 2px solid;
-    border-style: solid;
-    border-radius: 30px;
-    float: left;
-}
-
-#productbox{
-
-    border-radius: 10px;
-    height: 175px;
-    width: 225px;
-    background-color: #211f33;
-    float: left;
-
-    
-}
-
-.inprodbox{
-    margin-top: 23px;
-    margin-left: 20px;
-    animation: productfade;
-    animation-duration: 3s;
-}
-
-@keyframes productfade{
-    0%   {opacity: 0%;}
-    100% {opacity: 100%;}
-}
-
-#prodbutt{
-    animation: productfade;
-    animation-duration: 3s;
-    position: absolute;
-    margin-top: -7px;
-    margin-left: -475px;
-    
-}
-
-.prodlogo{
-    position: sticky;
-    height: auto;
-    width: 75px;
-    margin-left: 70px;
-    margin-top: 65px;
-    border-radius: 10px;
-
-}
-
-#prodtitle{
-    margin-top: 10px;
-    margin-left: 2mm;
-    position: fixed;
-
-}
-
-.x-logo {
-    position: relative;
-    width: 30px;
-    height: 30px; 
-    margin-top: 10px;
-    margin-left: 11px;
-  }
-  
