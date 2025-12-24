@@ -1,9 +1,9 @@
 body{
-    background-color:#1e1e2e;
+    background-color:#181818;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: montserrat;
-    color: #cdd6f4;
+    color: #ffffff;
 }
 
 em {
@@ -40,7 +40,7 @@ h5{
 }
 
 h6{
-    font-size: xx-large;
+    font-size: xx-small;
 }
 
 .chopperpics{   
@@ -59,6 +59,13 @@ h6{
 .center {
     text-align: center;
     border: 3px;
+}
+
+.half {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
 }
 
 .return{
@@ -88,9 +95,9 @@ h6{
 
 button{
     border-radius: 5px;
-    border-color: #cba6f7;
+    border-color: #ffffff;
     color: #11111b;
-    background-color: #cba6f7;
+    background-color: #ffffff;
 }
 
 .animebutton{
@@ -99,4 +106,61 @@ button{
 
 #chopbutt{
     margin-left: 882px;
+}
+
+.newline{
+    position: relative;
+    margin-top: 100px;
+}
+
+.small{
+    font-size: xx-small;
+}
+
+.quarter-container {
+  position: relative;
+  height: 100vh;
+}
+
+/* block positioning */
+.block {
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+}
+
+/* quarter positions */
+.left {
+  left: 25%;
+}
+
+.right {
+  left: 75%;
+}
+
+/* title spacing */
+.block h1,
+.block h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* each line: image + text */
+.line {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+
+.line p {
+  margin: 0;
+}
+
+/* image size */
+.side-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
 }
